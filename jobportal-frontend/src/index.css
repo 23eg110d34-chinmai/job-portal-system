@@ -1,0 +1,21 @@
+/* JobPortal Custom Styles */
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #f8f9fa; /* slightly off-white background */
+  color: #333;
+}
+
+/* Add custom animations and utilities here */
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.job-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.rounded-4 {
+  border-radius: 1rem !important;
+}
